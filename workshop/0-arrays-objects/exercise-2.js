@@ -1,7 +1,7 @@
 // Exercise 2
 // -------------------
-const lateComers = ['Felicia', 'Charles', 'Terry'];
-const earlyBirds = ['Ellen', 'Jerry', 'Jasmine'];
+const lateComers = ["Felicia", "Charles", "Terry"];
+const earlyBirds = ["Ellen", "Jerry", "Jasmine"];
 
 // You have two arrays above of people who arrived late to your party and
 // people who arrived early.
@@ -11,3 +11,10 @@ const earlyBirds = ['Ellen', 'Jerry', 'Jasmine'];
 // Output them in a tidy list from first to last arrival the console.
 
 // NO for loops!
+
+const partyGuests = [...earlyBirds, ...lateComers];
+
+let guest = 0;
+partyGuests.forEach(function (partyGuests, guest) {
+  console.log(`${guest + 1}: ${partyGuests}`);
+});

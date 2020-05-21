@@ -2,12 +2,12 @@
 // below is an example of an array of objects, where each object represents a person:
 
 const people = [
-  { name: { first: 'Alyssa', middle: 'P.', last: 'Hacker' }, age: 26 },
-  { name: { first: 'Ben', last: 'Bitdiddle' }, age: 34 },
-  { name: { first: 'Eva', middle: 'Lu', last: 'Ator' }, age: 40 },
-  { name: { first: 'Lem', middle: 'E.', last: 'Tweakit' }, age: 45 },
-  { name: { first: 'Louis', last: 'Reasoner' }, age: 21 },
-  { name: { first: 'Shahan', middle: 'Haig', last: 'Krakirian' }, age: 21 },
+  { name: { first: "Alyssa", middle: "P.", last: "Hacker" }, age: 26 },
+  { name: { first: "Ben", last: "Bitdiddle" }, age: 34 },
+  { name: { first: "Eva", middle: "Lu", last: "Ator" }, age: 40 },
+  { name: { first: "Lem", middle: "E.", last: "Tweakit" }, age: 45 },
+  { name: { first: "Louis", last: "Reasoner" }, age: 21 },
+  { name: { first: "Shahan", middle: "Haig", last: "Krakirian" }, age: 21 },
 ];
 
 // Exercise 5.0
@@ -15,7 +15,7 @@ const people = [
 // Add the object representing yourself to this array of people (if your
 // `name` key does not have the same "shape" as the ones above, make sure you
 // change it to look like these).
-
+people.push({ name: { first: "Queen", last: "Aamasha" }, age: "69" });
 //-------------------------------------------------
 
 // Exercise 5.1
